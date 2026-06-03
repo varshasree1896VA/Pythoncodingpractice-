@@ -44,7 +44,7 @@ def majority_frequency_character(s):
                 best_freq = count
     return "".join(best_group)
 
-print(majority_frequency_character(s="aabccdde"))
+print(majority_frequency_character(s="aabbccdddcecdf"))
 
 
 

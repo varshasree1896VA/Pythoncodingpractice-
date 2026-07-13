@@ -14,6 +14,6 @@ def longest_common_prefix(strs):
     # Compare characters
     while i < len(first) and first[i] == last[i]:
         i += 1
-    return first[:2] # return the common prefix by slicing
+    return first[:i] # return the common prefix by slicing
 
 print(longest_common_prefix(strs=["flower", "flow", "flight", "flask"]))

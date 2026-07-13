@@ -13,7 +13,7 @@ def roman_to_int(s):
             total -= value  # smaller before bigger value then subtract
         else:
             total += value   # normal condition bigger value next smaller then add
-            prev_value = value  # update the previous values
+        prev_value = value  # update the previous values
 
     return total  # finally, return the total
 

@@ -12,7 +12,7 @@ def reverse_number(n):
         n = n // 10  # remove the last digit
     return rev
 
-print(reverse_number(n=152))
+print(reverse_number(n=20202126))
 
     # dry run
     # step    n=n//10       rev = rev*10 + digit

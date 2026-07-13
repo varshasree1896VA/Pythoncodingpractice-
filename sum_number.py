@@ -3,9 +3,9 @@
 def sum_of_numbers(n):
     result =  0
 
-    while n > 0:
-        result += n % 10
-        n = n // 10
+    while n > 0: # keep going until number becomes 0
+        result += n % 10   # old value plus new last digit
+        n = n // 10   # get remove last digit
     return result
 
 print(sum_of_numbers(n=154))

@@ -14,7 +14,7 @@ def fibonacci(n):
 
 print(fibonacci(n=8))
 
-# dry run    n =8
+# dry run    8th =21
 #   n             fib(n) = a=b, b =a+b
 #   1                   a=1,    b =0+1 =1
 #   2                   a=1,    b= 1+1 =2
@@ -22,3 +22,5 @@ print(fibonacci(n=8))
 #   4                    3       2+3=5
 #   5                    5       3+5=8
 #   6                    8       8+5=13
+#   7                    13      8+13=21
+#   8                    21     13+21= 34

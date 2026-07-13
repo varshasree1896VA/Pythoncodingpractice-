@@ -6,10 +6,10 @@ def maximum_minimum(nums):
     minimum = nums[0]
 
     for i in nums[1:]:
-        if maximum > i:
+        if i > maximum:
             maximum = i
-        if minimum < i:
-            minimum = i
+        if i < minimum:
+            minimum =  i
     return maximum, minimum
 
 print(maximum_minimum(nums = [ 4,7,1,9,2]))

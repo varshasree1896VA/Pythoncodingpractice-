@@ -7,16 +7,16 @@ from operator import truediv
 #define function
 
 def valid_parenthesis(s):
-    stack=[]
+    stack=[] # unmatched opening pairs and temporary storage
     pairs = { ')' : '(', ']' : '[', '}' : '{' }
 
     for char in s:
         if char in "([{":    # opening braces
-            stack.append(char)  # add them to attack
+            stack.append(char)  # add them to stack
         else: #closing braces
             if not stack or stack[-1] != pairs[char]: # if not in the stack and does not match with pairs
                 return False # not a valid string
-        stack.pop(char) # if valid pop out
+        stack.pop() # if valid pop out
     return not stack # return not in stack
 
 print(valid_parenthesis(s={ "({))}" }))

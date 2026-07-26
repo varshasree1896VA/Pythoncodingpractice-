@@ -1,0 +1,9 @@
+{
+  "total": 4,
+  "tests": [
+    {"id": 101, "name": "Login", "status": "PASS"},
+    {"id": 102, "name": "Signup", "status": "FAIL"},
+    {"id": 103, "name": "Profile", "status": "PASS"},
+    {"id": 104, "name": "Payment", "status": "FAIL"}
+  ]
+}
